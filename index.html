@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;500&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<title>Survey Form</title>
+	</head>
+	<body>
+		<section class="container">
+			<h1 id="title">freeCodeCamp Survey Form</h1>
+			<p id="description">Thank you for taking the time to help us improve the platform</p>
+			<form action="" id="survey-form">
+				<label for="" id="name-label" class="form__label">
+					<h4>Name</h4>
+					<input type="text" placeholder="Enter your name" id="name" required />
+				</label>
+				<label for="" id="email-label" class="form__label">
+					<h4>Email</h4>
+					<input type="email" placeholder="Enter your email" id="email" required />
+				</label>
+				<label for="" id="number-label" class="form__label">
+					<h4>Age</h4>
+					<input type="number" name="" id="number" min="13" max="100" placeholder="Age" required />
+				</label>
+				<label for="" id="drobdown-label" class="form__label">
+					<h4>Tell us your role</h4>
+					<select name="" id="dropdown">
+						radio
+						<option value="1">Student</option>
+						<option value="2">Parent</option>
+						<option value="3">Teacher</option>
+					</select>
+				</label>
+				<label for="" id="radio-label" class="form__label">
+					<h4>Was our website useful for you?</h4>
+					<div class="radio__field"><input type="radio" name="name" id="" value="1" /> Yes</div>
+					<div class="radio__field"><input type="radio" name="name" id="" value="0" /> No</div>
+				</label>
+				<label for="" class="form__label text-area">
+					<h4>If not, could you tell us your advice in order to improve?</h4>
+					<textarea name="" id="" cols="2" rows="15"></textarea>
+				</label>
+				<label for="" class="form__label">
+					<h4>How did you know us?</h4>
+					<div class="checkbox__field">Social Media<input type="checkbox" name="" id="" value="1" /></div>
+					<div class="checkbox__field">Friends<input type="checkbox" name="" id="" value="2" /></div>
+					<div class="checkbox__field">Advertisement<input type="checkbox" name="" id="" value="3" /></div>
+				</label>
+				<input type="submit" value="Submit" id="submit" />
+			</form>
+		</section>
+	</body>
+</html>
